@@ -1,6 +1,3 @@
-#test
-
-
 import calendar
 
 # Go through every month
@@ -25,7 +22,5 @@ for month in range(1, 13):
 
 
     print('1st monday in month: %3s: %2s' % (calendar.month_abbr[month], day))
-    #print('2nd monday in month: %3s: %2s' % (calendar.month_abbr[month], dday))
+    print('2nd monday in month: %3s: %2s' % (calendar.month_abbr[month], dday))
     
-
-
